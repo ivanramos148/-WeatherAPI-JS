@@ -12,7 +12,6 @@ $(document).ready(function() {
         getElements(response);
       }
     }
-
     request.open("GET", url, true);
     request.send();
 

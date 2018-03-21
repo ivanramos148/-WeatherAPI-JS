@@ -1,18 +1,23 @@
 <html>
   <head>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script type="text/javascript" src="weather-interface.js"></script>
     <title>Weather</title>
   </head>
   <body>
     <div class="container">
-      <h1>Get Weather Conditions From Anywhere!</h1>
+      <center>
+        <div class="jumbotron">
+          <h1>Get Weather Conditions From Anywhere!</h1>
+        </div>
       <label for="location">Enter a location:</label>
-      <input id="location" type="text">
-      <button class="btn-success" id="weatherLocation">Get Current Humidity!</button>
+      <input id="location" type="text"><br><br>
+      <button class="btn btn-primary" id="weatherLocation">Get Current Humidity!</button>
       <div class="errors"></div>
       <div class="showHumidity"></div>
       <div class="showTemp"></div>
+      </center>
     </div>
   </body>
 </html>
